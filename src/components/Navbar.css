@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 3rem 2rem;
+    background: transparent; /* Transparent navbar */
+    color: white;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .logo-highlight {
+    color: #d48b1d;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .contact-button {
+    background-color: #d48b1d;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #f57106;
+  }
+  
